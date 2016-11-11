@@ -15,7 +15,7 @@ var planets = [
 function changeImage() {
     var selectPlanet = document.getElementById('selectPlanet');
     var planetName = selectPlanet.options[selectPlanet.selectedIndex].text.toLowerCase();
-    document.getElementById('planetPicture').src='./images/' + planetName + '.jpg;'
+    document.getElementById('planetPicture').src='./images/' + planetName + '.jpg'
    
 }
 
