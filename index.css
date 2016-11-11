@@ -24,6 +24,13 @@ text-align: center;
 
 }
 
+.resultText {
+	position: fixed;
+	margin: 30px;
+	top: 0px;
+	left: 0px;
+}
+
 #output {color:green;}
 #lbsToKg{color:red;}
 #joke{color:blue;}
